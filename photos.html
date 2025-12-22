@@ -59,16 +59,33 @@
     </footer>
   </div>
 
-  <!-- Fullscreen photo viewer -->
-  <div id="lightbox" class="lightbox">
-    <button class="lightbox-close" aria-label="Close">✕</button>
-    <button class="lightbox-arrow lightbox-prev" aria-label="Previous photo">‹</button>
-    <figure class="lightbox-content">
-      <img id="lightbox-image" src="" alt="" />
-      <figcaption id="lightbox-caption"></figcaption>
-    </figure>
-    <button class="lightbox-arrow lightbox-next" aria-label="Next photo">›</button>
+  <button id="back-to-albums" class="back-btn hidden">
+  ← Back to Albums
+</button>
+
+
+  <!-- Lightbox Fullscreen photo viewer -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-close">✕</button>
+
+  <!-- Toolbar -->
+  <div class="lightbox-toolbar">
+    <button id="zoom-out">−</button>
+    <button id="zoom-reset">Reset</button>
+    <button id="zoom-in">+</button>
+    <a id="download-photo" download title="Download">⬇</a>
   </div>
+
+  <button class="lightbox-arrow lightbox-prev">‹</button>
+
+  <figure class="lightbox-content">
+    <img id="lightbox-image" src="" />
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+
+  <button class="lightbox-arrow lightbox-next">›</button>
+</div>
+
 
   <script src="script.js" defer></script>
 </body>
