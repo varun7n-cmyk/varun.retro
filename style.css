@@ -814,3 +814,61 @@ footer span strong {
     right: 30%;
   }
 }
+
+/* ===== Lightbox toolbar (BOTTOM CENTER) ===== */
+.lightbox-toolbar {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+  padding: 6px 10px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+
+.lightbox-toolbar button,
+.lightbox-toolbar a {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.35);
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.lightbox-toolbar button:hover,
+.lightbox-toolbar a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+#lightbox-image {
+  transition: transform 0.25s ease;
+  cursor: grab;
+}
+
+#lightbox-image {
+  cursor: grab;
+  user-select: none;
+}
+
+#lightbox-image.grabbing {
+  cursor: grabbing;
+}
+
+.back-btn {
+  margin-bottom: 1rem;
+  background: none;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.back-btn.hidden {
+  display: none;
+}
