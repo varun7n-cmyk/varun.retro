@@ -488,3 +488,8 @@ const albums = AUTO_ALBUMS.map(album => ({
     title: `${album.folder} ${i + 1}`
   }))
 }));
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+
