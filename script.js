@@ -5,7 +5,7 @@
 const videos = [
   // Example:
   // { id: "dQw4w9WgXcQ", title: "My Secret Video" },
-  { id: "ksWvYtq_qCE", title: "Wedding",
+  { id: "ksWvYtq_qCE", title: "Raghu Akka Kalyanam 💍🎉",
     isFeatured: true},
   { id: "IfATR3YBmS8", title: "Sivaganga Vlog ✨",
     isFeatured: true},
