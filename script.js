@@ -5,41 +5,34 @@
 const videos = [
   // Example:
   // { id: "dQw4w9WgXcQ", title: "My Secret Video" },
-  { 
-    id: "IfATR3YBmS8", title: "Sivaganga Vlog ✨",
-    isFeatured: true
-  },
+  { id: "ksWvYtq_qCE", title: "Wedding",
+    isFeatured: true},
+  { id: "IfATR3YBmS8", title: "Sivaganga Vlog ✨",
+    isFeatured: true},
   { id: "4LuqJ9QotTM", title: "Vignesh Birthday 🎂😂",
-    isShowcase: true
-  },
+    isShowcase: true},
   { id: "fx0XD_CwIzg", title: "Survey Camp at Yelagiri 🌄",
-    isFeatured: true
-  },
+    isFeatured: true},
   { id: "-z49GCaGbT8", title: "Amusement Park Salem"},
   { id: "iT3xDiaILT0", title: "MGM Dizzee World Adventures 🎡",
-    isShowcase: true
-  },
+    isShowcase: true},
   { id: "6fh8sNpGnFs", title: "Ghost in Our Hostel 😱👻"},
   { id: "b3HBDtYIWoM", title: "Maggie in hostel PART 2 🔥"},
   { id: "piQ6umXzIyc", title: "Nexus Vijaya Mall Vlog! 🪄"},
   { id: "px1Z4dYauvw", title: "RECharge 2025 ✨"},
   { id: "xvWBRFkLf2A", title: "Hostel farewell for Habitat guys 🏠",
-    isShowcase: true
-  },
+    isShowcase: true},
   { id: "_z9vy_g0m4E", title: "Behind The Scenes 🎬| Ziggurat'25 🏗️",
-    isShowcase: true
-  },
+    isShowcase: true},
   { id: "_Sqn90GyoWw", title: "Vidamuyarchi - Not a Vlog"},
   { id: "fhLq6sHqI5U", title: "Vasanth Hospitalised 🤒"},
   { id: "3LkhhxhLwLA", title: "RECharge 25 announcement",
-    isShowcase: true
-  },
+    isShowcase: true},
   { id: "cYLy_pdvpO4", title: "What if I am alone? 🫣"},
   { id: "yyrBux7QV_E", title: "Making hostel maggie 🍜| Chef Vignesh 🧑🏻‍🍳"},
   { id: "Rt7KApy7caw", title: "Chennai to Salem 🧳| GOAT 🎬"},
   { id: "rZfx80qTRm4", title: "Yercaud Vlog 🏞️🚗",
-    isShowcase: true
-  },
+    isShowcase: true},
   { id: "0VD963OmaoQ", title: "Project Vlog 😮🦾"},
   { id: "n4Yfr80B2ak", title: "Mission courier 📦"},
 ];
